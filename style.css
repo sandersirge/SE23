@@ -1,11 +1,72 @@
 .esimenepealkiri {
     color: red;
     font: bold;
+    font-size: 32px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium';
 }
 
-table, th, td{
+table, th, td {
     border: 2px solid;
 }
 
+img {
+    width: 400px;
+    height: auto;
+    border: 2px solid;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+.paragrahv {
+    color: rgb(0, 15, 83);
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+}
+
+.päis {
+    background-color:aliceblue;
+    font-size: x-large;
+}
+#suurkast {
+    background-color: aqua;
+}
+
+.rida1 {
+    background-color: aquamarine;
+}
+
+.rida2 {
+    background-color: rgb(241, 255, 40);
+}
+
+body {
+    columns: 2;
+    background: url('taustapilt.jpg');
+    background-color: rgba(255, 255, 255, 0.9);
+    background-blend-mode: overlay;
+}
+
+a.button-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+button.info-button {
+    background-color: #fff;
+    color: #3498db;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 15px;
+}
+
+button.info-button:hover {
+    background-color: #2980b9;
+    font-weight: bold;
+    color: #fff;
+    transform: scale(1.02);
+}

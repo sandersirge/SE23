@@ -8,9 +8,12 @@
 </head>
 <body>
     <h1 class="esimenepealkiri">Mänguarvutid</h1>
-    <p>Sellel lehel saab tutvuda erinevate mänguarvutitega. Valikvõimalusi on kõige madalama taseme arvutitest kuni kõrgeimateni.</p>
+    <p class="paragrahv">Sellel lehel saab tutvuda erinevate mänguarvutitega. Valikvõimalusi on kõige madalama taseme arvutitest kuni kõrgeimateni.</p>
 
-    <a href="https://manguarvutid.ee/" target="_blank">Rohkem informatsiooni</a>
+    <a href="https://manguarvutid.ee/" target="_blank" class="button-link">
+        <button class="info-button">Rohkem informatsiooni</button>
+    </a>
+    <p></p>
     <img src="arvuti.jpg" alt="Illustratsioon mänguarvutitest">
     <h2>Mänguarvutite omadused</h2>
     <ul>
@@ -30,24 +33,25 @@
         </li>
     </ul>
     <table>
-        <tr>
+        <tr class="päis">
             <th>Tulp 1</th>
             <th>Tulp 2</th>
             <th>Tulp 3</th>
         </tr>
-        <tr>
-            <td rowspan="2">Rida 1, Tulp 1</td>
+        <tr class="rida1">
+            <td rowspan="2" id="suurkast">Rida 1, Tulp 1</td>
             <td>Rida 1, Tulp 2</td>
             <td>Rida 1, Tulp 3</td>
         </tr>
-        <tr>
+        <tr class="rida1">
             <td>Rida 2, Tulp 2</td>
             <td>Rida 2, Tulp 3</td>
         </tr>
-        <tr>
+        <tr class="rida2">
             <td colspan="3">Rida 3, Tulp 1</td>
         </tr>
     </table>
+    <p></p>
     <a href="index2.html">Teine veebileht</a>
 </body>
 </html>
